@@ -3,7 +3,7 @@
 set -x
 
 # Tool to demonstrate versions are correct
-go install github.com/theothertomelliott/go-module-versioning
+go install github.com/theothertomelliott/go-module-versioning/cmd/moduleversion
 
 # Additional tools
 go install github.com/gogo/protobuf/protoc-gen-gogofast
