@@ -19,5 +19,4 @@ require (
 	github.com/yext/revel v0.0.0-20190422183000-37fce5a738c9
 	github.com/zmb3/gogetdoc v0.0.0-20160822143000-c852ac5702ce
 	golang.org/x/tools v0.0.0-20190814235402-ea4142463bf3
-    github.com/googlecodelabs/tools v2.2.0+incompatible
 )
