@@ -23,6 +23,12 @@ moduleversion
 
 Which should return `v0.1.0`.
 
+## Defining Tools
+
+There are two places where a tool needs to be declared, in `go.mod` and `tools/tools.go` as an import.
+
+The former sets the version for the tool, the latter ensures it isn't removed when running `go mod tidy`.
+
 ## Changing a Version
 
 If you change the `moduleversion` version in the go.mod file from:
